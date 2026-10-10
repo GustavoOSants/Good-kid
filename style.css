@@ -1,18 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-   
+
     text-decoration: none;
     box-sizing: border-box;
     justify-content: none;
-  
+
 }
-body{
+
+body {
     font-family: "Outfit", sans-serif;
     background-color: #f8f8f8;
     color: #1d1d1d;
 }
-header{
+
+header {
     max-height: 45px;
     display: flex;
     justify-content: space-between;
@@ -25,133 +27,161 @@ header{
 }
 
 
-header img{
+header img {
     display: flex;
     justify-content: flex-start;
 }
-nav ul{
-     list-style: none;
+
+nav ul {
+    list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
-    
+
 }
 
-footer p{
+footer p {
     display: flex;
     justify-content: center;
     padding-bottom: 16px;
     color: #1d1d1d88;
 }
-footer nav ul{
+
+footer nav ul {
     color: #1d1d1db9;
     padding-top: 16px;
-     list-style: none;
+    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding-bottom: 16px;
-    
+
 }
 
 
 
 .inicio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 380px;
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 380px;
+
 }
 
 /* Corrigido de .inico-texto para .inicio-texto */
 .inicio-texto {
-  padding: 30px;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+    padding: 30px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 /* Estilo específico apenas para a imagem da logo dentro do texto */
 .inicio-texto img {
-  width: 120px;
-  margin-bottom: 20px;
+    width: 120px;
+    margin-bottom: 20px;
 }
 
 .inicio-texto p {
-  font-size: 20px;
-  line-height: 1.5;
-  margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
 }
 
 /* Estilo específico apenas para a imagem grande da banda à direita */
-.inicio > img {
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 16px;
+.inicio>img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 16px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* Seção de Características */
-.caracteristicas{
-    background-color: #85C5DE;
-  padding: 40px;
-  text-align: center;
-}
-
-.caracteristicas h2, .curiosidades h2 {
-  margin-bottom: 30px;
-  font-size: 32px;
+h2, h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
 }
 
 /* Container flex para colocar a imagem e o texto lado a lado */
-.caracteristicas-conteudo, .curiosidades-conteudo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 38dvh;
-  flex-wrap: wrap; /
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38dvh;
+    flex-wrap: wrap;/
 }
 
 /* Imagem da esquerda da seção características */
-.caracteristicas-conteudo img, .curiosidades-conteudo img{
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 16px;
+.conteudo img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 16px;
 }
 
 /* Bloco de texto da direita */
-.caracteristicas .texto, .curiosidades .texto {
-  max-width: 500px;
-  text-align: left; /* Alinha o texto à esquerda como na referência */
-  display: flex;
-  flex-direction: column;
-  gap: 20px; /* Espaço entre os parágrafos */
+.texto {
+    max-width: 500px;
+    text-align: left;
+    /* Alinha o texto à esquerda como na referência */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Espaço entre os parágrafos */
 }
 
-.caracteristicas .texto p, .curiosidades .texto p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 0;
+.texto p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.universo ul, .sobre-caracteristicas ul{
+    margin-left: 20px;
+}
+
+
+
+.caracteristicas {
+    background-color: #85C5DE;
+
 }
 
 .curiosidades {
     background-color: #EBCFF0;
-  padding: 40px;
-  text-align: center;
+
+}
+
+.sobre {
+    background-color: #FF7376;
+
+}
+
+.historia {
+    background-color: #85C5DE;
+
+}
+
+.boom{
+    background-color: #E1588E;
+}
+
+.universo{
+    background-color: #8C9ECC;
+}
+
+.sobre-caracteristicas{
+    background-color: #FF7376;
+}
+
+.album{
+    background-color: #EBCFF0;
 }
