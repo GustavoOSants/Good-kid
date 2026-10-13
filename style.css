@@ -177,6 +177,12 @@ section {
 
 }
 
+.sobre img{
+    max-width: 39dvh;
+}
+
+
+
 .historia {
     background-color: #85C5DE;
 
@@ -198,12 +204,18 @@ section {
     background-color: #EBCFF0;
 }
 
+iframe{
+    width: 52dvh;
+    height: 29.25dvh;
+}
+
 
 
 /* Sessão de contato */
 
 .contato {
     background: linear-gradient(to bottom, #444680 0%, #0E0E1A 100%);
+    min-height: 87dvh;
 
 }
 
