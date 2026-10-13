@@ -211,8 +211,8 @@ section {
 }
 
 .sobre-caracteristicas .conteudo img {
-    width: 52.5dvh;
-    height: 35dvh;
+   width: 52.5dvh;
+   height: 35dvh;
 }
 
 .album {
@@ -223,6 +223,25 @@ iframe {
     margin-top: 1rem;
     width: 52dvh;
     height: 29.25dvh;
+}
+
+/* Ajuste para telas mais finas */
+
+@media(max-width: 350px){
+    .sobre img {
+    max-width: 32dvh;
+}
+    .sobre-caracteristicas .conteudo img {
+   width: 42dvh;
+   height: 28dvh;
+}
+
+iframe {
+    margin-top: 1rem;
+    width: 42dvh;
+    height: 23.625dvh;
+}
+
 }
 
 
