@@ -227,19 +227,19 @@ iframe {
 
 /* Ajuste para telas mais finas */
 
-@media(max-width: 350px){
+@media(max-width: 360px){
     .sobre img {
     max-width: 32dvh;
 }
     .sobre-caracteristicas .conteudo img {
-   width: 42dvh;
-   height: 28dvh;
+   width: 40dvh;
+   height: 26.64dvh;
 }
 
 iframe {
     margin-top: 1rem;
-    width: 42dvh;
-    height: 23.625dvh;
+    width: 40dvh;
+    height: 22.5dvh;
 }
 
 }
