@@ -100,8 +100,8 @@ footer nav ul {
 }
 
 .inicio>img {
-    width: 350px;
-    height: 350px;
+    width: 35dvh;
+    height: 35dvh;
     object-fit: cover;
     border-radius: 16px;
 }
@@ -121,10 +121,20 @@ h1 {
     flex-wrap: wrap;
 }
 
+@media (max-width: 1400px) {
+    .inicio {
+        gap: 8dvh;
+    }
+
+    .conteudo {
+        gap: 8dvh;
+    }
+}
+
 
 .conteudo img {
-    width: 350px;
-    height: 350px;
+    width: 35dvh;
+    height: 35dvh;
     object-fit: cover;
     border-radius: 16px;
 }
@@ -177,7 +187,7 @@ section {
 
 }
 
-.sobre img{
+.sobre img {
     max-width: 39dvh;
 }
 
@@ -200,11 +210,17 @@ section {
     background-color: #FF7376;
 }
 
+.sobre-caracteristicas .conteudo img {
+    width: 52.5dvh;
+    height: 35dvh;
+}
+
 .album {
     background-color: #EBCFF0;
 }
 
-iframe{
+iframe {
+    margin-top: 1rem;
     width: 52dvh;
     height: 29.25dvh;
 }
