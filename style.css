@@ -234,12 +234,14 @@ iframe {
     .sobre-caracteristicas .conteudo img {
    width: 40dvh;
    height: 26.64dvh;
+   max-width: 98%;
 }
 
 iframe {
     margin-top: 1rem;
     width: 40dvh;
     height: 22.5dvh;
+    max-width: 98%;
 }
 
 }
